@@ -180,35 +180,35 @@
       "id": 25,
       "name": "Women's leather shoes",
       "price": 1,
-      "image": "/images/Leather/Tabriz1.jpg",
+      "image": "/images/Leather/tabriz1.jpg",
       "description": ""
     },
     {
       "id": 26,
       "name":"Men's leather shoes",
       "price": 2,
-      "image": "/images/Leather/Tabriz2.jpg",
+      "image": "/images/Leather/tabriz2.jpg",
       "description": ""
     },
     {
       "id": 27,
       "name":"Men's leather shoes",
       "price": 2,
-      "image": "/images/Leather/Tabriz3.jpg",
+      "image": "/images/Leather/tabriz3.jpg",
       "description": ""
     },
     {
       "id": 28,
       "name": "Women's leather shoes",
       "price": 2,
-      "image": "/images/Leather/Tabriz4.jpg",
+      "image": "/images/Leather/tabriz4.jpg",
       "description": ""
     },
     {
       "id": 29,
       "name": "Men's leather shoes",
       "price": 2,
-      "image": "/images/Leather/Tabriz5.jpg",
+      "image": "/images/Leather/tabriz5.jpg",
       "description": ""
     }
   ],
