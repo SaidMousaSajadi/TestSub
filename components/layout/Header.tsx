@@ -91,7 +91,7 @@ export default function Header() {
 
             
             <Link
-              href="/cart"
+              href="/"
               className="relative p-2 rounded-full hover:bg-gray-100 transition-all duration-200 group"
               aria-label={`Shopping cart with ${cartCount} items`}
             >

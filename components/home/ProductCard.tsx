@@ -58,7 +58,7 @@ export default function ProductCard({ product }: { product: Product }) {
       <div className="relative overflow-hidden">
         
 
-        <Link href={`/product/${product.id}`} className="block relative">
+        <Link href="" className="block relative">
           <div className="aspect-square overflow-hidden bg-muted">
             {!imageError ? (
               <Image
@@ -78,20 +78,12 @@ export default function ProductCard({ product }: { product: Product }) {
             )}
           </div>
 
-          <div className="absolute inset-0 bg-background/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
-            <Button
-              size="sm"
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
-            >
-              <Eye className="h-4 w-4 mr-2" />
-              Quick View
-            </Button>
-          </div>
+          
         </Link>
       </div>
 
       <CardContent className="p-4 space-y-3">
-        <Link href={`/product/${product.id}`}>
+        <Link href="">
           <h2 className="font-semibold text-foreground line-clamp-2 hover:text-primary transition-colors">
             {product.name}
           </h2>
